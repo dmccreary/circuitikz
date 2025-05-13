@@ -1,2 +1,5 @@
-# circuitikz
-Test LaTeX circuitikz circuit drawings with mkdocs
+# Template Mkdocs Repo
+
+Website: 
+
+[https://dmccreary.github.io/circuitikz/](https://dmccreary.github.io/circuitikz/)

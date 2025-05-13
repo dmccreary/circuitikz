@@ -1,0 +1,58 @@
+site_name: Mkdocs Template Site
+site_description: 'DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
+site_url: 'https://dmccreary.github.io/circuitikz/'
+repo_url: 'https://github.com/dmccreary/circuitikz'
+edit_uri: 'blob/master/docs'
+
+nav:
+  - Home: index.md
+  - How: how.md
+  - Test Circuit 1: test-circuit-1.md
+
+# Dan's MicroSite standards from here down
+
+theme:
+  name: material
+  extra_css:
+    - styles/custom.css
+  # logo: img/logo.png
+  # favicon: img/my-icon.png
+  palette:
+    primary: 'blue'
+    accent: 'orange'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    # this adds the prev and next icons in the footer
+    - navigation.footer
+    - content.action.edit
+plugins:
+  - search
+  - social
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight:
+      linenums: true
+extra_css:
+   - css/extra.css
+extra_javascript:
+   - js/extra.js
+   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+#extra:
+#  analytics:
+#    provider: google
+    # https://analytics.google.com/analytics/web/#/a1420179p349994530/admin/streams/table/4433129821
+#    property: G-XXXX
